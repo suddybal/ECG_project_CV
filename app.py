@@ -6,7 +6,7 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.image import img_to_array
 
 # Load trained model
-model = load_model("ecg_mi_classifier.h5")
+model = load_model("quantized_model.tflite")
 IMG_SIZE = 224
 
 st.set_page_config(page_title="ECG MI Classifier", layout="wide")
